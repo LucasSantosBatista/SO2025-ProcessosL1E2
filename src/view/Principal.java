@@ -21,7 +21,7 @@ public class Principal {
 				entrada = JOptionPane.showInputDialog("Digite um PID para matar o processo: ");
 				control.mataPID(entrada);
 				break;
-			case 2: 
+			case 2:
 				entrada = JOptionPane.showInputDialog("Digite um nome para matar o processo: ");
 				control.mataNome(entrada);
 				break;
